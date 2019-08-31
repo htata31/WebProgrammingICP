@@ -70,11 +70,11 @@ body {
   align-content: center;
   flex-wrap: wrap;
 }
-
+/* 
 .main-content img {
   width: 272px;
   height: 92px;
-}
+} */
 
 #search-bar {
   position: relative;
@@ -172,4 +172,29 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  line-height:30px;
+  justify-content: center;
+}
+.flex-item {
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  /* flex: 1 0 auto; */
+  height:120px;
+  width:120px
+}
+.flex-item:before {
+  content:'';
+  float:center;
+  padding-top:100%;
 }

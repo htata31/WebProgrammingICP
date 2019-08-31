@@ -1,37 +1,85 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<ul id="nav-bar">
-    <li><a href="#" class="nav-bar-opacity">Gmail</a></li>
-    <li><a href="#" class="nav-bar-opacity">Images</a></li>
-    <li><a href="#">
-        <div id="menu-icon" class="nav-bar-opacity"></div>
-    </a></li>
-    <li>
-        <button id="sign-in"><a href="#" id="sign-in-text">Sign in</a></button>
-    </li>
-</ul>
+    <ul id="nav-bar">
+        <li><a href="#" class="nav-bar-opacity">Gmail</a></li>
+        <!-- <li><a href="#" class="nav-bar-opacity">Images</a></li> -->
+        <li><a href="#">
+                <div class="fa fa-bell"></div>
+            </a></li>
+        <li>
+            <a href="#" ><img width="30px" height="30px" style="border-radius: 50%;" src="images/9.jpg"></a>
+        </li>
+    </ul>
 
-<div class="main-content">
-    <div id="logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-             alt="Google logo">
+    <div class="main-content">
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+        <div id="search-bar">
+            <input type="text" name="search">
+            <a href="#" id="speech-link"><img src="https://lh5.googleusercontent.com/OorCLDb2xlVQ4P2MDNCiwAnpv0K1ZrcDwEwRS3sOfDMrnYTnVPvCh7WtFQMbZ_S9u_jzcSLd8g=s128-h128-e365"
+                    alt="Speech icon"></a>
+        </div>
+        <div>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <a href="https://www.google.com/" target="_blank">
+                        <img width="100px" height="100px" src="images/1.jpg">
+                        <span style="font-size: 10px;color: black">google</span>
+                </div>
+                <div class="flex-item">
+                    <a href="https://www.telerik.com/kendo-ui" target="_blank">
+                        <img width="100px" height="100px" src="images/2.jpg">
+                        <span style="font-size: 10px;color: black">Kendo</span>
+                </div>
+                <div class="flex-item">
+                    <a href="https://www.w3schools.com/tags/att_img_width.asp" target="_blank">
+                        <img width="100px" height="100px" src="images/3.jpg">
+                        <span style="font-size: 10px;color: black">w3schools</span>
+                </div>
+                <div class="flex-item">
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img width="100px" height="100px" src="images/4.jpg">
+                        <span style="font-size: 10px;color: black">youtube</span>
+                </div>
+            </div>
+            <br>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <a href="https://www.netflix.com/browse" target="_blank">
+                        <img width="100px" height="100px" src="images/5.jpg">
+                        <span style="font-size: 10px;color: black">netflix</span>
+                </div>
+                <div class="flex-item">
+                    <a href="https://www.pluralsight.com/" target="_blank">
+                        <img width="100px" height="100px" src="images/6.jpg">
+                        <span style="font-size: 10px;color: black">Pluralsight</span>
+                </div>
+                <div class="flex-item">
+                    <a href="https://www.amazon.com/" target="_blank">
+                        <img width="100px" height="100px" src="images/7.jpg">
+                        <span style="font-size: 10px;color: black">Amazon</span>
+                </div>
+                <div class="flex-item">
+                    <a href="https://www.udemy.com/" target="_blank">
+                        <img width="100px" height="100px" src="images/8.jpg">
+                        <span style="font-size: 10px;color: black">Udemy</span>
+                </div>
+            </div>
+            <!-- <section>
+                <button name="Google-Search"><p>Google Search</p></button>
+                <button name="Feeling-Lucky"><p>I'm Feeling Lucky</p></button>
+        </section> -->
+
+        </div>
     </div>
-    <div id="search-bar">
-        <input type="text" name="search">
-        <a href="#" id="speech-link"><img
-                src="https://lh5.googleusercontent.com/OorCLDb2xlVQ4P2MDNCiwAnpv0K1ZrcDwEwRS3sOfDMrnYTnVPvCh7WtFQMbZ_S9u_jzcSLd8g=s128-h128-e365"
-                alt="Speech icon"></a>
-    </div>
-    <div class="buttons">
-        <button name="Google-Search"><p>Google Search</p></button>
-        <button name="Feeling-Lucky"><p>I'm Feeling Lucky</p></button>
-    </div>
-</div>
 </body>
 <footer>
     <div class="bottom-nav">
@@ -48,4 +96,5 @@
         </ul>
     </div>
 </footer>
+
 </html>
