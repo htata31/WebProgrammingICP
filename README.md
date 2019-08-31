@@ -5,7 +5,7 @@ This is Web Programming Icp Repo.Here all the ICPs will be committed in this bra
 In first half of course I am developing web apps using HTML, CSS, JQuery, MEAN Stack
 The other half contains developing mobile application using andriod platform
 
-Web ICP 2 Tasks:
+### Web ICP 2 Tasks:
 
 ### Created an HTML document named "index.html" that contains following elements
 •	paragraphs 
