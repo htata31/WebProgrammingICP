@@ -9,6 +9,7 @@ Web ICP 2 Tasks:
 
 ### Created an HTML document named "index.html" that contains following elements
 •	paragraphs 
+
 •	Headings
 •	unordered list
 •	ordered list
