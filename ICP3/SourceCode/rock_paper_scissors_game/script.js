@@ -27,26 +27,26 @@ function compare(choice1) {
 
     if (choice1 === choice2) {
 
-        alert( "The result is a tie!" + " " + "Lets play again.");
+        alert( "The result is a tie!!!" + " " + "Lets play again.");
     }
 
     else if (choice1 === "rock") {
 
         if (choice2 === "scissors") {
-            alert( "rock wins"+ " " +"You beat the computer, nice job!");
+            alert( "rock wins"+ "!!! " +"You beat the computer, nice job!");
         }
         else {
-            alert("paper wins"  + " " + "Your really smart computer beat you.") ;
+            alert("paper wins"  + "!!! " + "Your really smart computer beat you.") ;
         }
     }
 
     else if (choice1 === "paper") {
 
         if (choice2 === "rock") {
-            alert("paper wins"+ " " + "You beat the computer, nice job!") ;
+            alert("paper wins"+ "!!! " + "You beat the computer, nice job!") ;
         }
         else {
-            alert("scissors wins"+ " " + "Your really smart computer beat you.") ;
+            alert("scissors wins"+ "!!! " + "Your really smart computer beat you.") ;
         }
 
     }
