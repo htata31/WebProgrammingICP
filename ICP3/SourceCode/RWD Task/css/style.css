@@ -66,3 +66,22 @@
 {
     background: url(../SampleImages/7.jpg)
 }
+.square {
+    height: 50px;
+    width: 50px;
+    background-color:#00FF15;
+  }
+
+  .square1 {
+    height: 50px;
+    width: 50px;
+    background-color: #FC0000;
+  }
+.midimg{
+    position: absolute;
+    left: -5%;
+}
+.lbl{
+    color: white;
+}
+
