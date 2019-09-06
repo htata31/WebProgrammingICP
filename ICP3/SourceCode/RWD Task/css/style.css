@@ -17,8 +17,8 @@
     font-size: 1.5em;
     text-align: center; */
     /* flex: 1 0 auto; */
-    height:300px;
-    width:320px
+    height:250px;
+    width:260px
 }
 .flex-item:before {
     content:'';
@@ -37,14 +37,16 @@
 
 .topdiv{
     width:50%;
-    height: 120px;
+    height: 100px;
 }
 .horizontalline{
-    width:50%;
+    width:45%;
 }
 
 .image{
     float: left;
+    position: absolute;
+    left: 15%;
 }
 
 .topheading{
@@ -69,19 +71,26 @@
 .square {
     height: 50px;
     width: 50px;
-    background-color:#00FF15;
+    background-color:gray;
   }
 
-  .square1 {
+.square1 {
     height: 50px;
     width: 50px;
-    background-color: #FC0000;
+    background-color: white;
+  }
+
+  .gray{
+color: gray
+  }
+  .white{
+      color:white
   }
 .midimg{
     position: absolute;
-    left: -5%;
+    left: 0%;
 }
 .lbl{
-    color: white;
+    color: white
 }
 
