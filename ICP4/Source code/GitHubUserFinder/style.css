@@ -1,5 +1,5 @@
 body {
-  background: #fafafa url('images/grey.jpg'); /* http://subtlepatterns.com/subtle-grey/ */
+  background: #fafafa url('images/back.jpg'); /* http://subtlepatterns.com/subtle-grey/ */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 62.5%;
   /* line-height: 1; */
@@ -48,7 +48,6 @@ h2 {
   background-color: purple;
   text-decoration: none;
   color: white;
-  font-width: bold;
 }
 
 .profile:hover {
@@ -59,6 +58,15 @@ h2 {
   font-size: 0.75em;
   color: #a9a9a9;
   font-style: italic;
+}
+
+.idname {
+  font-family: 'Helvetica Neue';
+  font-size: 1.5em;
+  position: relative;
+  left: 2%;
+  color:black;
+  font-style: bold;
 }
 
 /* clearfix */
@@ -165,3 +173,16 @@ p {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
+
+ul
+{ 
+/* overflow-x:hidden; */
+white-space:nowrap; 
+height: 10%;
+width: 230%;
+} 
+
+li
+{ 
+display:inline; 
+}   
