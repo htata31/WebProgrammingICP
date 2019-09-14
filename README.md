@@ -27,3 +27,21 @@ The other half contains developing mobile application using andriod platform
 •	Added the notifications icon and my image in the corner of the page and the recently opened tabs below the search bars of Google
 
 •	Create a 'cube shaped color grid' with 70X70 px height and width which are center alligned
+
+### Web ICP 4 Tasks:
+
+## Task 1: 
+
+* when hovered on the first image, it should change the contents both background-image and text of the empty frame as shown in Image.
+
+## Task 2
+
+Following the user's account details is displayed when any user is searched by username
+* Name of the user
+* ID of the user
+* Profile picture
+* Link to the user's account
+* Followers
+* Number of repositories 
+* Following 
+* List of repos
