@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+   <!-- 1. write Typescript code in "app.component.ts" to work with calculator -->
+</head>
+<body>
+ <!-- 2. write html(view) code to display the calculator -->
+ <!-- <p> Calculator!!!</p> -->
+<div id="calculator" >
+  
+  <div id="display">{{mainText}}</div>
+  <div id="keys">
+    <button (click)='keyPress(1)'>1</button>
+    <button (click)='keyPress(2)'>2</button>
+    <button (click)='keyPress(3)'>3</button>
+    <button (click)='keyPress("/")'>/</button>
+    <button (click)='keyPress(4)'>4</button>
+    <button (click)='keyPress(5)'>5</button>
+    <button (click)='keyPress(6)'>6</button>
+    <button (click)='keyPress("*")'>*</button>
+    <button (click)='keyPress(7)'>7</button>
+    <button (click)='keyPress(8)'>8</button>
+    <button (click)='keyPress(9)'>9</button>
+    <button (click)='keyPress("+")'>+</button>
+    <button (click)='keyPress(0)'>0</button>
+    <button (click)='result()'>=</button>
+    <button (click)='keyPress("-")'>-</button>
+
+    <button  (click)="allClear()">C</button>
+    <!-- <button class="wide" ng:click="key('=')">=</button> -->
+  </div>
+</div>
+
+</body>
+</html>
